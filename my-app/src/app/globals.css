@@ -1,0 +1,206 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+button.MuiButtonBase-root.MuiIconButton-root.MuiIconButton-sizeMedium.css-1imvrq-MuiButtonBase-root-MuiIconButton-root {
+  margin-left: 15px;
+}
+
+img.nav-logo {
+  width: 175px;
+}
+
+.white {
+  color: white;
+  font-size: 14px;
+}
+
+.signin-button {
+  border-radius: 7px;
+  padding: 5px 17px;
+}
+
+.signin-button:hover {
+  color: rgb(0, 0, 0);
+  background-color: rgb(243, 244, 245);
+}
+
+.delete-icon {
+  margin-right: 11px !important;
+}
+
+.css-1x7skt0 {
+  background-color: #292828 !important;
+}
+
+.css-hip9hq-MuiPaper-root-MuiAppBar-root {
+  background-color: #292828 !important;
+}
+
+.text-section {
+  background-color: #292828 !important;
+}
+
+.lorem-text {
+  margin: 15px auto;
+  width: 60% !important;
+}
+
+.MuiBox-root-6 {
+  padding: 0px !important;
+}
+.home-page {
+  min-height: calc(100vh - 64px);
+  background-color: #292828;
+}
+.login-section {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  background-color: #292828;
+}
+.main-page {
+  min-height: calc(100vh - 70px);
+  background-color: #292828;
+}
+.no-item {
+  min-height: calc(100vh - 69px);
+}
+.detail-tab {
+  background-color: #292828;
+}
+.css-q8hpuo-MuiFormControl-root {
+  width: 25% !important;
+}
+
+.MuiInputBase-root.MuiOutlinedInput-root.MuiInputBase-colorPrimary.MuiInputBase-formControl.MuiInputBase-adornedStart.css-1q6at85-MuiInputBase-root-MuiOutlinedInput-root {
+  height: 35px !important;
+  border-radius: 7px !important;
+}
+
+.MuiFormControl-root.MuiTextField-root.\!text-stone-200.bg-slate-200.css-1u3bzj6-MuiFormControl-root-MuiTextField-root {
+  border-radius: 5px !important;
+}
+
+.css-tzsjye {
+  width: 30% !important;
+}
+
+.MuiFormControl-root.MuiTextField-root.\!text-stone-200.bg-slate-200.css-i44wyl {
+  border-radius: 10px !important;
+}
+
+.MuiInputBase-root.MuiOutlinedInput-root.MuiInputBase-colorPrimary.MuiInputBase-formControl.MuiInputBase-adornedStart.css-1ufn0jl {
+  height: 40px !important;
+}
+
+
+.css-1o9s3wi-MuiInputBase-input-MuiOutlinedInput-input {
+  height: 0.1em !important;
+}
+
+.css-7e0s21-MuiPaper-root-MuiAppBar-root {
+  background-color: #303132 !important;
+}
+
+.MuiFormControl-root.MuiFormControl-fullWidth.css-q8hpuo-MuiFormControl-root {
+  background-color: white !important;
+  border-radius: 7px !important;
+}
+
+.css-1xfvyax {
+  background-color: #303132 !important;
+}
+
+.css-tzsjye {
+  width: 25% !important;
+  background-color: white !important;
+  border-radius: 6px !important;
+}
+
+.MuiAppBar-colorPrimary {
+  color: #fff;
+  background-color: #292828 !important;
+}
+.score-border {
+  padding: 23px;
+  border-right: 1px solid rgb(75 77 81);
+}
+.member-border {
+  padding: 23px;
+}
+.rank-section {
+  margin-left: 6px;
+  display: flex;
+  gap: 10px;
+}
+.MuiTab-root {
+  min-width: 50px !important;
+}
+.cart-button {
+  background-color: #3a3a3d;
+  width: 100%;
+}
+.details-score {
+  background-color: #3a3a3d;
+  display: flex;
+
+  text-align: center;
+  padding: 8px 0px 8px 0px;
+}
+.delete-icon {
+  margin: -4% auto;
+}
+.makeStyles-root-1 {
+  flex-grow: 1;
+  background-color: #292828 !important;
+}
+
+
+.details-cart {
+  display: grid;
+  grid-template-columns: 71% 11% 15%;
+  gap: 10px;
+  align-items: center;
+}
+
+.css-dwkzlu-MuiDataGrid-root .MuiDataGrid-container--top [role="row"],
+.css-dwkzlu-MuiDataGrid-root .MuiDataGrid-container--bottom [role="row"] {
+  background: #292828 !important;
+}
+
+.para-text {
+  margin-top: 5%;
+  border-bottom: 1px solid rgb(240, 233, 233);
+  font-size: 21px;
+}
+
+.para-rank {
+  display: flex;
+  gap: 30px;
+}
+
+.MuiBox-root.MuiBox-root-6 {
+  background-color: #323235 !important;
+}
+
+.rank.text-white {
+  height: 100px !important;
+}
+
+.tabs-button {
+  border: 1px solid gray !important;
+  padding: 5px !important;
+  border-radius: 5px !important;
+
+}
+
+.small-text {
+  margin-top: 10px !important;
+  font-size: 13px !important;
+}
+.free-movie::selection {
+  background-color: rgb(159, 190, 194);
+  color: #292828;
+}
