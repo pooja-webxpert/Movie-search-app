@@ -32,8 +32,8 @@ const Login = () => {
       if (res.error) {
         return errorMsg("Invalid credentials");
       } else {
-        router.replace("/"); // Redirect to homepage on successful login
-        return successMsg("Login Successfully");
+       successMsg("Login Successfully");
+       return router.replace("/"); // Redirect to homepage on successful login
       }
     } catch (error) {
       return errorMsg("Login Error");

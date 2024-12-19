@@ -130,11 +130,6 @@ function ResponsiveAppBar() {
                   <Typography sx={{ textAlign: "center" }}>Movies</Typography>
                 </MenuItem>
                 </Link>
-                <Link href={routesUrl.about}>
-              <MenuItem onClick={handleCloseNavMenu}>
-                <Typography sx={{ textAlign: "center" }}>Recently Added</Typography>
-              </MenuItem>
-                </Link>
                 <Link href={routesUrl.myList}>
               <MenuItem onClick={handleCloseNavMenu}>
                 <Typography sx={{ textAlign: "center" }}>My List</Typography>
@@ -179,15 +174,6 @@ function ResponsiveAppBar() {
                 sx={{ my: 2, color: "white", display: "block" }}
               >
                 Movies
-              </Button>
-            </Link>
-            <Link href={routesUrl.about}>
-              <Button
-                className="hover:text-red-700"
-                onClick={handleCloseNavMenu}
-                sx={{ my: 2, color: "white", display: "block" }}
-              >
-                Recently added
               </Button>
             </Link>
             <Box

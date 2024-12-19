@@ -80,8 +80,8 @@ const SignUpForm = () => {
         if (res.error) {
           return errorMsg("Invalid credentials");
         } else {
-          router.replace("/");
-          return successMsg("Login Successfully");
+          successMsg("Login Successfully");    
+          return router.replace("/");
         }
       } catch (error) {
         return errorMsg("Login Error");

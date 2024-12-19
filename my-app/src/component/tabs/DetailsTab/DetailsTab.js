@@ -65,9 +65,9 @@ const DetailsTab = () => {
               </Typography>
             </div>
           </div>
-            <Button className="tabs-button">
+            {/* <Button className="tabs-button">
              <PlayArrowIcon/>Play
-            </Button>
+            </Button> */}
             <Button onClick={handleAddList} className="tabs-button">
             <AddIcon/>My List
             </Button>
