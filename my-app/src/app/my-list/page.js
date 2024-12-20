@@ -4,6 +4,7 @@ import { Button, Dialog, DialogActions, DialogContent, DialogContentText, Dialog
 import React, { useContext, useState } from "react";
 import DeleteIcon from "@mui/icons-material/Delete";
 import { useRouter } from "next/navigation";
+import { successMsg } from "@/component/Toastmsg/toaster";
 
 const AddToCart = () => {
   const [open, setOpen] = useState(false);
@@ -39,6 +40,7 @@ const AddToCart = () => {
       localStorage.setItem('cartCount', JSON.stringify(updatedCartMovies.length));
     }
     handleClose(); // Close the dialog
+    successMsg("Movie cart is delete successfully")
   };
 
   return (

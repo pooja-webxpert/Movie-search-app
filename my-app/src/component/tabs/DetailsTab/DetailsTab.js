@@ -4,6 +4,7 @@ import { Button, Typography } from "@mui/material";
 import React, { useContext, useEffect } from "react";
 import PlayArrowIcon from '@mui/icons-material/PlayArrow';
 import AddIcon from '@mui/icons-material/Add';
+import { successMsg } from "@/component/Toastmsg/toaster";
 const DetailsTab = () => {
   const { selectedMovie, setCartMovies, count, cartMovies, setCount } =
     useContext(UserContext);
@@ -14,6 +15,7 @@ const DetailsTab = () => {
       const newCartMovies = [...cartMovies, selectedMovie]; // Create a new array
       setCartMovies(newCartMovies); // Update state
       setCount(newCartMovies.length); // Set the new count based on the new array
+      successMsg("Movie is added successfully")
     }
   };
 
